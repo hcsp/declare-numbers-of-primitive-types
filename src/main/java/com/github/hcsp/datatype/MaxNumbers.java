@@ -32,7 +32,7 @@ public class MaxNumbers {
         System.out.println("maxByte=" + maxByte);
         System.out.println("maxByte+1=" + (maxByte + 1));
         System.out.println("maxShort=" + maxShort);
-        System.out.println("maxShort+1=" + (maxShort + 1);
+        System.out.println("maxShort+1=" + (maxShort + 1));
         System.out.println("maxInt=" + maxInt);
         System.out.println("maxInt+1=" + (maxInt + 1));
         System.out.println("maxLong=" + maxLong);

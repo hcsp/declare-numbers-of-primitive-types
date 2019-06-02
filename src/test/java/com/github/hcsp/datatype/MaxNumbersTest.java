@@ -13,6 +13,6 @@ class MaxNumbersTest {
         assertEquals(Long.MAX_VALUE, MaxNumbers.maxLong);
         assertEquals(Float.MAX_VALUE, MaxNumbers.maxFloat);
         assertEquals(Double.MAX_VALUE, MaxNumbers.maxDouble);
-        assertEquals(Charater.MAX_VALUE, MaxNumbers.maxChar);
+        assertEquals(Character.MAX_VALUE, MaxNumbers.maxChar);
     }
 }
