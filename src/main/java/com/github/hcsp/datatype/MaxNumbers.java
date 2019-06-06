@@ -10,7 +10,7 @@ public class MaxNumbers {
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt = 2147483519;
+    public static int maxInt = 0x7FFFFFFF;
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
