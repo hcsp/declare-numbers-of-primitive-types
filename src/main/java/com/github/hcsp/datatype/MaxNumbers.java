@@ -22,7 +22,7 @@ public class MaxNumbers {
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = Double.MAX_EXPONENT;
+    public static double maxDouble = Double.MAX_VALUE;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
