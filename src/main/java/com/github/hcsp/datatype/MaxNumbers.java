@@ -27,7 +27,7 @@ public class MaxNumbers {
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = Character.MAX_VALUE;//65535;//'\uffff';
+    public static char maxChar = Character.MAX_VALUE;//'\uffff';
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
