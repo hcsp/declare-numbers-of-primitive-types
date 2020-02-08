@@ -1,33 +1,32 @@
 package com.github.hcsp.datatype;
-
 public class MaxNumbers {
     // byte类型能存储的最大值是？
     // The maximum value a byte type can store
-    public static byte maxByte = Byte.MAX_VALUE;//127;
+    public static byte maxByte = ?;
 
     // short类型能存储的最大值是？
     // The maximum value a short type can store
-    public static short maxShort = Short.MAX_VALUE;//32767;
+    public static short maxShort = ?;
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt = Integer.MAX_VALUE;//2147483647;
+    public static int maxInt = ?;
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = Long.MAX_VALUE;//9223372036854775807L;
+    public static long maxLong = ?;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
-    public static float maxFloat = Float.MAX_VALUE;//3.4028235E38F;
+    public static float maxFloat = ?;
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = Double.MAX_VALUE;//1.7976931348623157E308D;
+    public static double maxDouble = ?;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = Character.MAX_VALUE;//65535;//'\uffff';
+    public static char maxChar = ?;
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
