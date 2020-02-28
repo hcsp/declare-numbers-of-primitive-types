@@ -1,6 +1,5 @@
 package com.github.hcsp.datatype;
 public class MaxNumbers {
-
     // byte类型能存储的最大值是？
     // The maximum value a byte type can store
     public static byte maxByte = Byte.MAX_VALUE;
