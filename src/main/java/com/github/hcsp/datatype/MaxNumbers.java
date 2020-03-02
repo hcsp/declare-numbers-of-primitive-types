@@ -14,7 +14,7 @@ public class MaxNumbers {
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = 9223372036854775807L?;
+    public static long maxLong = 9223372036854775807L;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
