@@ -1,5 +1,6 @@
 package com.github.hcsp.datatype;
 public class MaxNumbers {
+
     // byte类型能存储的最大值是？
     // The maximum value a byte type can store
     public static byte maxByte = 127;
@@ -14,19 +15,19 @@ public class MaxNumbers {
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = 0x7fffffffffffffffl;
+    public static long maxLong = 9223372036854775807L;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
-    public static float maxFloat = 32341234;
+    public static float maxFloat = (float) 3.4028235E38;
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = 1.7976931348623158e+308;
+    public static double maxDouble = 1.7976931348623157E308;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = 65535;
+    public static char maxChar = '\uFFFF';
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
