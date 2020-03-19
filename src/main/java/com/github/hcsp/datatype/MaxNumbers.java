@@ -29,6 +29,7 @@ public class MaxNumbers {
     public static char maxChar = Character.MAX_VALUE;
 
     public static void main(String[] args) {
+        //code review test
         System.out.println("maxByte=" + maxByte);
         System.out.println("maxByte+1=" + (maxByte + 1));
         System.out.println("maxShort=" + maxShort);
