@@ -41,7 +41,7 @@ public class MaxNumbers {
         System.out.println("maxFloat+1=" + (maxFloat + 1));
         System.out.println("maxDouble=" + maxDouble);
         System.out.println("maxDouble+1=" + (maxDouble + 1));
-        System.out.println("maxChar=" + (int)maxChar);
+        System.out.println("maxChar=" + (int) maxChar);
         System.out.println("maxChar+1=" + (maxChar + 1));
     }
 }
