@@ -6,15 +6,15 @@ public class MaxNumbers {
 
     // short类型能存储的最大值是？
     // The maximum value a short type can store
-    public static short maxShort =2^15-1;
+    public static short maxShort =(short)(Math.pow(2,15)-1);
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt =2^31-1;
+    public static int maxInt =(int)(Math.pow(2,31)-1);
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong =2^63-1;
+    public static long maxLong =(long)(Math.pow(2,63)-1);
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
@@ -26,7 +26,7 @@ public class MaxNumbers {
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar='\uFFFF';
+    public static char maxChar='\uffff';
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
