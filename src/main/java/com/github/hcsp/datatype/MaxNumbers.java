@@ -22,11 +22,11 @@ public class MaxNumbers {
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = ?;
+    public static double maxDouble = 0x1.fffffffffffffP+1023;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = ?;
+    public static char maxChar = '\uFFFF';
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
