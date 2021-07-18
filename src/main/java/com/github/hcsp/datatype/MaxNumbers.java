@@ -10,32 +10,25 @@ public class MaxNumbers {
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt = 2147483647;
+    public static int maxInt = 0x7fffffff;
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = 9223372036854775807L;
+    public static long maxLong = 0x7fffffffffffffffL;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
-    public static float maxFloat = 3.4028235E38F;
+    public static float maxFloat = 0x1.fffffeP+127f;
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = 1.7976931348623157E308;
+    public static double maxDouble = 0x1.fffffffffffffP+1023;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = 32767;
+    public static char maxChar = '\uFFFF';
 
     public static void main(String[] args) {
-//        System.out.println(Double.MAX_VALUE);
-//        System.out.println(Float.MAX_VALUE);
-//        System.out.println(Long.MAX_VALUE);
-//        System.out.println(Integer.MAX_VALUE);
-//        System.out.println(Character.MAX_VALUE);
-//        System.out.println(Byte.MAX_VALUE);
-//        System.out.println(Short.MAX_VALUE);
         System.out.println("maxByte=" + maxByte);
         System.out.println("maxByte+1=" + (maxByte + 1));
         System.out.println("maxShort=" + maxShort);
