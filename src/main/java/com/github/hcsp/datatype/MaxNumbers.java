@@ -18,11 +18,11 @@ public class MaxNumbers {
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
-    public static float maxFloat = 214748365;
+    public static float maxFloat = 2147483647;
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = 9223372036854776D;
+    public static double maxDouble = 9223372036854775807D;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
