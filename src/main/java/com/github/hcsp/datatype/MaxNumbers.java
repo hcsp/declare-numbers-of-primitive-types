@@ -10,19 +10,19 @@ public class MaxNumbers {
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt = 0x7fffffff;
+    public static int maxInt = 2147483647;
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = 0x7fffffffffffffffL;
+    public static long maxLong = 9223372036854775807L;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
-    public static float maxFloat = 0x1.fffffeP+127f;
+    public static float maxFloat = 3.4028235E38f;
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = 0x1.fffffeP+127f;
+    public static double maxDouble = 1.7976931348623157E308;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
