@@ -1,6 +1,5 @@
 package com.github.hcsp.datatype;
 
-import javafx.scene.chart.Chart;
 
 public class MaxNumbers {
     // byte类型能存储的最大值是？
@@ -29,7 +28,7 @@ public class MaxNumbers {
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = 65535;
+    public static char maxChar = '\uffff';
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
