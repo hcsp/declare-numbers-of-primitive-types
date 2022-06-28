@@ -1,4 +1,7 @@
 package com.github.hcsp.datatype;
+
+import javafx.scene.chart.Chart;
+
 public class MaxNumbers {
     // byte类型能存储的最大值是？
     // The maximum value a byte type can store
@@ -14,15 +17,15 @@ public class MaxNumbers {
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = 2^63 - 1;
+    public static long maxLong = 9223372036854775807L;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
-    public static float maxFloat = (float)3.4028235E38;
+    public static float maxFloat = 3.4028235E38F;
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble =1.7976931348623157E308;
+    public static double maxDouble = 1.7976931348623157E308D;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
