@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class MaxNumbersTest {
+
     @Test
     public void test() {
         Assertions.assertEquals(Byte.MAX_VALUE, MaxNumbers.maxByte);
